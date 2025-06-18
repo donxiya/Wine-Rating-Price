@@ -12,10 +12,10 @@ This project aims to help consumers find wines similar to ones they like by appl
 
 We explored three main algorithms:
 
-## K-Means Clustering: Quickly groups wines into clusters by minimizing distance to cluster centers. It’s simple but assumes equal-sized, spherical clusters.
+**K-Means Clustering**: Quickly groups wines into clusters by minimizing distance to cluster centers. It’s simple but assumes equal-sized, spherical clusters.
 
-## Hierarchical Clustering: Builds a tree of clusters without needing to predefine the number. It helps visualize how wines group together at different levels of similarity.
+**Hierarchical Clustering**: Builds a tree of clusters without needing to predefine the number. It helps visualize how wines group together at different levels of similarity.
 
-## Gaussian Mixture Model (GMM): A flexible model that assigns probabilities to clusters, allowing for overlapping and elliptical groupings. It captures more subtle patterns than K-Means.
+**Gaussian Mixture Model (GMM)**: A flexible model that assigns probabilities to clusters, allowing for overlapping and elliptical groupings. It captures more subtle patterns than K-Means.
 
 These methods let us segment wines and support a recommendation system based on feature similarity.
